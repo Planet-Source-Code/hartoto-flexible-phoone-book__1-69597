@@ -1,0 +1,7 @@
+<xmltemplate>
+
+  <menu text="M A I N" tag="kitas" image="g1" key="R1">
+     <item text="Phone List"  Keyfd=""   image="g1" key="P1.1"/>
+  </menu>
+  
+</xmltemplate>
