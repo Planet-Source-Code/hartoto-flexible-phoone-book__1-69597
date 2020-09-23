@@ -1,0 +1,21 @@
+   <template> 
+     <search  name="grid" pageSize="" MDetail="" Judul="Phone List">
+       <grid> 
+   	  <columns> 
+   		<column field="Nomor" 	caption="No."			width="00" 	align="left"/> 
+   		<column field="Nama"  	caption="Name" 			width="2000" 	align="left"/> 
+   		<column field="Alamat"  caption="Address" 		width="3200" 	align="left"/> 
+   		<column field="Telepon"	caption="Phone" 		width="1500" 	align="left"/> 
+   		<column field="HP"    	caption="Cell.Phone" 		width="1200" 	align="left"/> 
+   	  </columns>
+       </grid> 
+     </search>
+
+	<editform name="myform" TblName="Telepon" OrderFd="Nama" SQLUPDATE="" SQLGET=""  SQLDEL="" KeyFd="Nomor">
+           <control class="textbox" tag="txtNomor"  field="Nomor"   left="2000" top="550"  width="2500" lblCaption="No."   		dtType="dt_string"/>
+	   <control class="textbox" tag="txtNama"   field="Nama"    left="2000" top="950"  width="2500" lblCaption="Name"    		dtType="dt_string"/>
+	   <control class="textbox" tag="txtAlamat" field="Alamat"  left="2000" top="1350" width="2500" lblCaption="Address"  		dtType="dt_string"/>
+	   <control class="textbox" tag="txtTel"    field="Telepon" left="2000" top="1750" width="2500" lblCaption="Phone" 		dtType="dt_string"/>
+	   <control class="textbox" tag="txtHP"     field="HP"      left="2000" top="2150" width="2500" lblCaption="Cell.Phone"    	dtType="dt_string"/>
+	</editform>
+</template>
